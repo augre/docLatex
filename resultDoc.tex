@@ -1,0 +1,190 @@
+\documentclass[11pt]{article}
+\usepackage{float}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+\setlength{\topmargin}{-.5in}
+\setlength{\textheight}{9in}
+\setlength{\oddsidemargin}{.125in}
+\setlength{\textwidth}{6.25in}
+\begin{document}
+\title{Spinotron Simulation}
+\maketitle
+\section{Introduction}
+These simulations use geometries defined in Geant4 except for the capsules. The theta limit method was used to generate the photons. The number of events was 10$^9$ and the Spinotron was rotated in 2 degree steps. 
+\clearpage
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | }
+      \hline
+      \textbf{Primary collimator dimensions} & \textbf{Secondary collimator dimensions}\\ \hline
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm): 3.25\\Outer R(mm): 7\\Half Hight (mm): 39.5\end{tabular}
+         &
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm) Plus Y: 1.1\\Outer R(mm) Plus Y: 7\\Inner R(mm) Minus y: 1.1\\Outer R(mm) Minus y: 6 \\Half Hight (mm): 24.5\end{tabular} \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=.35]{../1drawing2015_10_14_13_58_46dmedlin/1drawing2015_10_14_13_58_46dmedlinvoigt.png}
+    \caption{Voigt fit on each axis }  
+    \label{fig:sim1}
+  \end{center}
+\end{figure}
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | l | l | l | l | }
+    \hline
+      Axis & Max of histo & Max of function & 90\% to 50\% (mm) & 90\% to 90\% (mm) & 80\% to 80\% (mm) \\ \hline
+      X & 161.9232 & 159.2253 & 3.4325 & 3.5569 & 5.3061 \\ \hline
+      Y & 163.3188 & 161.3594 & 3.5371 & 3.5435 & 5.3136 \\ \hline
+      Z & 161.9232 & 147.0625 & 2.7374 & 3.4741 & 5.0598 \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\clearpage
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | }
+      \hline
+      \textbf{Primary collimator dimensions} & \textbf{Secondary collimator dimensions}\\ \hline
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm): 3.25\\Outer R(mm): 7\\Half Hight (mm): 39.5\end{tabular}
+         &
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm) Plus Y: 1.4\\Outer R(mm) Plus Y: 7\\Inner R(mm) Minus y: 1.4\\Outer R(mm) Minus y: 6 \\Half Hight (mm): 24.5\end{tabular} \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=.35]{../2drawing2015_10_14_18_05_28dmedlin/2drawing2015_10_14_18_05_28dmedlinvoigt.png}
+    \caption{Voigt fit on each axis }  
+    \label{fig:sim1}
+  \end{center}
+\end{figure}
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | l | l | l | l | }
+    \hline
+      Axis & Max of histo & Max of function & 90\% to 50\% (mm) & 90\% to 90\% (mm) & 80\% to 80\% (mm) \\ \hline
+      X & 198.8224 & 191.6658 & 4.2709 & 4.8421 & 7.1414 \\ \hline
+      Y & 195.6258 & 202.6948 & 4.0178 & 4.1812 & 6.2336 \\ \hline
+      Z & 196.2793 & 197.9897 & 2.9263 & 3.7048 & 5.3973 \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\clearpage
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | }
+      \hline
+      \textbf{Primary collimator dimensions} & \textbf{Secondary collimator dimensions}\\ \hline
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm): 3.25\\Outer R(mm): 7\\Half Hight (mm): 39.5\end{tabular}
+         &
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm) Plus Y: 1.4\\Outer R(mm) Plus Y: 7\\Inner R(mm) Minus y: 1.4\\Outer R(mm) Minus y: 6 \\Half Hight (mm): 24.5\end{tabular} \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=.35]{../2drawing2015_10_14_18_05_28dmedlin/2drawing2015_10_14_18_05_28dmedlinvoigt.png}
+    \caption{Voigt fit on each axis }  
+    \label{fig:sim1}
+  \end{center}
+\end{figure}
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | l | l | l | l | }
+    \hline
+      Axis & Max of histo & Max of function & 90\% to 50\% (mm) & 90\% to 90\% (mm) & 80\% to 80\% (mm) \\ \hline
+      X &  &  &  &  &  \\ \hline
+      Y &  &  &  &  &  \\ \hline
+      Z &  &  &  &  &  \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\clearpage
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | }
+      \hline
+      \textbf{Primary collimator dimensions} & \textbf{Secondary collimator dimensions}\\ \hline
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm): 3.25\\Outer R(mm): 7\\Half Hight (mm): 39.5\end{tabular}
+         &
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm) Plus Y: 1.4\\Outer R(mm) Plus Y: 7\\Inner R(mm) Minus y: 1.4\\Outer R(mm) Minus y: 6 \\Half Hight (mm): 24.5\end{tabular} \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=.35]{../2drawing2015_10_14_18_05_28dmedlin/2drawing2015_10_14_18_05_28dmedlinvoigt.png}
+    \caption{Voigt fit on each axis }  
+    \label{fig:sim1}
+  \end{center}
+\end{figure}
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | l | l | l | l | }
+    \hline
+      Axis & Max of histo & Max of function & 90\% to 50\% (mm) & 90\% to 90\% (mm) & 80\% to 80\% (mm) \\ \hline
+      X &  &  &  &  &  \\ \hline
+      Y &  &  &  &  &  \\ \hline
+      Z &  &  &  &  &  \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\clearpage
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | }
+      \hline
+      \textbf{Primary collimator dimensions} & \textbf{Secondary collimator dimensions}\\ \hline
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm): 3.25\\Outer R(mm): 7\\Half Hight (mm): 39.5\end{tabular}
+         &
+        \begin{tabular}[t]{@{}c@{}}Inner R(mm) Plus Y: 1.4\\Outer R(mm) Plus Y: 7\\Inner R(mm) Minus y: 1.4\\Outer R(mm) Minus y: 6 \\Half Hight (mm): 24.5\end{tabular} \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=.35]{../2drawing2015_10_14_18_05_28dmedlin/2drawing2015_10_14_18_05_28dmedlinvoigt.png}
+    \caption{Voigt fit on each axis }  
+    \label{fig:sim1}
+  \end{center}
+\end{figure}
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{ | l | l | l | l | l | l | }
+    \hline
+      Axis & Max of histo & Max of function & 90\% to 50\% (mm) & 90\% to 90\% (mm) & 80\% to 80\% (mm) \\ \hline
+      X &  &  &  &  &  \\ \hline
+      Y &  &  &  &  &  \\ \hline
+      Z &  &  &  &  &  \\ \hline
+    \end{tabular}
+    \caption{Results using the fit function}
+  \end{center}
+\end{table}
+
+
+\end{document}
